@@ -13,5 +13,7 @@ for offer in bs.find_all('div', class_='offer-wrapper'):
     #print(location)
     if location =="Kraków":
         print(location,title,price)
+
+    #sprawdzam czy działa git
     #print(title)
     #print(price)
