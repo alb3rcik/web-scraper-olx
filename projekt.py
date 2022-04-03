@@ -14,6 +14,6 @@ for offer in bs.find_all('div', class_='offer-wrapper'):
     if location =="Kraków":
         print(location,title,price)
 
-    #sprawdzam czy działa git
+    #sprawdzam czy działa git na surface
     #print(title)
     #print(price)
