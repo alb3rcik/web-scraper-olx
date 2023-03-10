@@ -4,6 +4,13 @@ The extracted data is then stored in a SQLite database.
 ## Usage
 To run the script, navigate to the project directory and execute the following command in your terminal:
 ### python project.py setup
+This command sets up the SQLite database where the data will be stored.
+
+To parse the OLX website, execute the following command:
+### python project.py
+
+This command will scrape data from the first 25 pages of the real estate offers in Malopolskie region. 
+The extracted data will be stored in the SQLite database.
 
 ## Libraries
 The following libraries were used in this project:
