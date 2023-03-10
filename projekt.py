@@ -49,7 +49,8 @@ def parse_page(page):                                            #definiujemy so
 
 for page in range(1,26): #parsujemy strona po stronie
     parse_page(page)
-print("")
+
+
 
 db.close() #zamykamy połączenie z bazą danych musimy pamiętać o zcomittowaniu bo inaczej dane zostaną usunięte
 
